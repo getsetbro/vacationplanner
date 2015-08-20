@@ -16,8 +16,8 @@ app.factory('ptoManager', function(dataStore, $rootScope) {
       sbKey: 0, //carry over from previous year
       hireYearVar: 20, //20 or 15
       empStatusVar: 1, //1 or 2
-      prorateStart: "01/01/"+curYear,
-      prorateEnd: "12/31/"+curYear,
+      prorateStart: curYear + "-01-01",
+      prorateEnd: curYear + "-12-31",
       halfDays: false
     });
     ptoList = dataStore.getObject(ptoKey);
