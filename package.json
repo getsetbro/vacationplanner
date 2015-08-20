@@ -1,0 +1,15 @@
+{
+  "name": "vacationplanner",
+  "version": "1.0.0",
+  "description": "planner for vacation",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getsetbro/vacationplanner.git"
+  },
+  "author": "bm",
+  "license": "ISC",
+  "homepage": "https://github.com/getsetbro/vacationplanner"
+}
